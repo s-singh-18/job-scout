@@ -1,0 +1,166 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Job Details Page Styling */
+.job-details-page {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.job-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.job-company {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+/* Divider */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+/* Job Details Section */
+.job-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.job-description h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.job-description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Application Section */
+.application-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.application-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-switch .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: #4CAF50;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 3px;
+  left: 3px;
+  transition: 0.4s;
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+
+.file-input {
+  display: block;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.apply-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #2980b9;
+}
+
+/* Messages */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Loading Spinner */
+.loading {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #666;
+}

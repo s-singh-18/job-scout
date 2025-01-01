@@ -1,0 +1,78 @@
+/* Job Card Container */
+.job-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap; /* Allow cards to wrap if there is not enough space */
+}
+
+/* Job Card Styling */
+.job-card {
+    width: 380px; /* Increased width for a more spacious look */
+    height: 450px; /* Adjusted height to make the cards more balanced */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Hover Effect */
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+.job-card-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Company and Location Styling */
+.job-card-company, .job-card-location, .job-card-description {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Description Styling */
+.job-card-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    color: #777;
+}
+
+/* Button Container */
+.view-details-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Button Styling */
+.view-details-btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.view-details-btn:hover {
+    background-color: #0056b3;
+}

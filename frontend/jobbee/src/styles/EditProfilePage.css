@@ -1,0 +1,27 @@
+/* EditProfilePage.css */
+.profile-form .form-control {
+    border-radius: 0.375rem;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .profile-form .form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-form .btn {
+    padding: 12px 0;
+    font-size: 1.2rem;
+    border-radius: 0.375rem;
+  }
+  
+  .profile-form .alert {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-form input[type="file"] {
+    padding: 10px;
+  }
+  

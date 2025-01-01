@@ -1,0 +1,18 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .text-center {
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+  

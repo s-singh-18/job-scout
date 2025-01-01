@@ -1,0 +1,51 @@
+/* src/styles/UserProfile.css */
+.user-profile {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .user-profile h2 {
+    text-align: center;
+  }
+  
+  .user-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile form div {
+    margin-bottom: 15px;
+  }
+  
+  .user-profile form label {
+    font-weight: bold;
+  }
+  
+  .user-profile form input {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .user-profile button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-profile button:hover {
+    background-color: #45a049;
+  }
+  
+  .user-profile ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-profile li {
+    margin: 5px 0;
+  }
+  
