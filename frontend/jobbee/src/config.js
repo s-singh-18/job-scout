@@ -1,3 +1,3 @@
-export const API_URL = (process.env.NODE_ENV === 'production')
-    ? '/api/v1'                         // Production: relative path
-    : 'http://localhost:3000/api/v1';   // Development: full URL
+export const API_URL = process.env.NODE_ENV === 'production' 
+    ? 'https://job-scout-y3ik.onrender.com/api/v1'  // Your backend Render URL
+    : 'http://localhost:3000/api/v1';
